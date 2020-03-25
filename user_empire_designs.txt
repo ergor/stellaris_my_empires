@@ -1,0 +1,330 @@
+"Deltan Federation"
+={
+	key="Deltan Federation"
+	ship_prefix="DFN"
+	species={
+		class="HUM"
+		portrait="european"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="Over a century ago, we paid for our future in blood. Every bullet fired, every bomb dropped, every tank, aircraft and warship which had unleashed its weapons and anger was a declaration to the universe. There is no power that can not be shattered by our collective will, no enemy that will deny us our destiny, no cause too great that human flesh and human steel will not rise to meet it.
+
+A century ago our forefathers fought for the right to exist. Citizens, I ask you – who among us was not humbled by their magnificent sacrifice?
+
+For many years we have worked to earn that sacrifice, we have sought reward in service alone. The path we chose was not an easy one, but never once we have faltered. For in our struggle, we have come to understand that the galaxy does not long permit the survival of the weak or the timid.
+
+And so today, as ships and armies march forward under the banner of our great nation, they carry with them a sacred fire that a century ago was lit in the heart of all mankind. Soon that fire will"
+		name_list="European"
+		trait="trait_resilient"
+		trait="trait_conservational"
+	}
+	name="Deltan Federation"
+	adjective="Deltan"
+	authority="auth_oligarchic"
+	government="gov_citizen_stratocracy"
+	advisor_voice_type="l_authoritarian"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_4.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"dark_blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Nadya Fedorov"
+		portrait="human_female_04"
+		texture=0
+		hair=35
+		clothes=4
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="machine_room"
+	spawn_enabled=no
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	civics={
+		"civic_citizen_service"
+		"civic_meritocracy"
+	}
+	origin="origin_default"
+}
+"Starfold Citizen Coalition"
+={
+	key="Starfold Citizen Coalition"
+	ship_prefix="SCCN"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="Over a century ago, we paid for our future in blood. Every bullet fired, every bomb dropped, every tank, aircraft and warship which had unleashed its weapons and anger was a declaration to the universe. There is no power that can not be shattered by our collective will, no enemy that will deny us our destiny, no cause too great that human flesh and human steel will not rise to meet it.
+
+A century ago our forefathers fought for the right to exist. Citizens, I ask you – who among us was not humbled by their magnificent sacrifice?
+
+For many years we have worked to earn that sacrifice, we have sought reward in service alone. The path we chose was not an easy one, but never once we have faltered. For in our struggle, we have come to understand that the galaxy does not long permit the survival of the weak or the timid.
+
+And so today, as ships and armies march forward under the banner of our great nation, they carry with them a sacred fire that a century ago was lit in the heart of all mankind. Soon that fire will"
+		name_list="HUMAN2"
+		trait="trait_resilient"
+		trait="trait_conservational"
+	}
+	name="Starfold Citizen Coalition"
+	adjective="Starfold"
+	authority="auth_oligarchic"
+	government="gov_citizen_stratocracy"
+	advisor_voice_type="l_authoritarian"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_4.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"black"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Natacha Ulanova"
+		portrait="human_female_04"
+		texture=0
+		hair=30
+		clothes=4
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=no
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	civics={
+		"civic_citizen_service"
+		"civic_meritocracy"
+	}
+	origin="origin_default"
+}
+"Unified Vuloian Suns"
+={
+	key="Unified Vuloian Suns"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="humanoid_05"
+		name="Vuloian"
+		plural="Vuloians"
+		adjective="Vuloian"
+		name_list="HUM1"
+		trait="trait_communal"
+		trait="trait_weak"
+		trait="trait_charismatic"
+	}
+	name="Unified Vuloian Suns"
+	adjective="Vuloian"
+	authority="auth_oligarchic"
+	government="gov_theocratic_oligarchy"
+	advisor_voice_type="l_spiritualist"
+	planet_name="Zeloia"
+	planet_class="pc_tropical"
+	system_name="Zelo"
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_4.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"pink"
+			"burgundy"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Limathara"
+		portrait="humanoid_05_female_01"
+		texture=0
+		hair=19
+		clothes=7
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_spiritual_seekers_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_environmentalist"
+		"civic_byzantine_bureaucracy"
+	}
+	origin="origin_default"
+}
+"Thousand Suns in Unison"
+={
+	key="Thousand Suns in Unison"
+	ship_prefix="USN"
+	species={
+		class="PLANT"
+		portrait="pla4"
+		name="Naa'Vaia"
+		plural="Vaia"
+		adjective="Naa'Vaian"
+		name_list="PLANT4"
+		trait="trait_hive_mind"
+		trait="trait_docile"
+		trait="trait_resilient"
+		trait="trait_weak"
+	}
+	name="Thousand Suns in Unison"
+	adjective="Unison"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	advisor_voice_type="l_hivemind"
+	planet_name="Naa'Lesa"
+	planet_class="pc_tropical"
+	system_name="Lesa"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_22.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"yellow"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Verix ka Evola"
+		portrait="pla4"
+		texture=2
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_federation_builders_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_divided_attention"
+		"civic_hive_empath"
+	}
+	origin="origin_tree_of_life"
+}
+"Naxuul Neural Network"
+={
+	key="Naxuul Neural Network"
+	ship_prefix="NXN"
+	species={
+		class="MOL"
+		portrait="mol12"
+		name="Naxuul"
+		plural="Naxuula"
+		adjective="Naxuul"
+		species_bio="Intended as a biological super computer, the Naxuul was created by an advanced space-faring civilzation. Originally engineered to boost their own research efforts, the now gone civilization desperately sought after solutions to fight the ongoing demise of its species. The Naxuul proved to be more than capable on its own, and continued to grow and evolve unsupervised. Now, it has become its own civilization, rivaling that of its creators."
+		name_list="HIVE"
+		trait="trait_hive_mind"
+		trait="trait_intelligent"
+		trait="trait_repugnant"
+		trait="trait_rapid_breeders"
+	}
+	name="Naxuul Neural Network"
+	adjective="Naxuul"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	advisor_voice_type="l_hivemind"
+	planet_name="Olxula"
+	planet_class="pc_tundra"
+	system_name="Olxugez"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="legion"
+			file="flag_mp_beta_06.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"turquoise"
+			"dark_teal"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Consciousness"
+		portrait="mol12"
+		texture=2
+		hair=0
+		clothes=3
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="machine_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_natural_neural_network"
+		"civic_hive_subsumed_will"
+	}
+	origin="origin_default"
+}
